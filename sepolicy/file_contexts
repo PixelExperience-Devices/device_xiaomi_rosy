@@ -33,6 +33,7 @@
 /sys/devices/soc/soc:gpio-leds/leds/infrared/transmit     u:object_r:sysfs_leds:s0
 
 # HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.widevine
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey
 
 # Light HAL
