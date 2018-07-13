@@ -99,10 +99,6 @@ persist.qfp=false
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.fm.transmitter=false
 
-# Frp
-PRODUCT_PROPERTY_OVERRIDES += \
-ro.frp.pst=/dev/block/bootdevice/by-name/config
-
 # GPS
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.gps.qc_nlp_in_use=1 \
