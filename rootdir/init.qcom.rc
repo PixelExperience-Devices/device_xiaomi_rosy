@@ -38,9 +38,6 @@ on init
     # Set permissions for persist partition
     mkdir /persist 0771 root system
 
-    # Support legacy path
-    symlink /sdcard /mnt/sdcard
-
     # Create cgroup mount point for memory
     mkdir /sys/fs/cgroup/memory/bg 0750 root system
     write /sys/fs/cgroup/memory/bg/memory.move_charge_at_immigrate 1
