@@ -44,7 +44,6 @@ on init
 
     # Create cgroup mount point for memory
     mkdir /sys/fs/cgroup/memory/bg 0750 root system
-    write /sys/fs/cgroup/memory/bg/memory.swappiness 140
     write /sys/fs/cgroup/memory/bg/memory.move_charge_at_immigrate 1
     chown root system /sys/fs/cgroup/memory/bg/tasks
     chmod 0660 /sys/fs/cgroup/memory/bg/tasks
@@ -356,10 +355,6 @@ on post-fs-data
     mkdir /data/vendor/qti-logkit/socket-privileged/ 2770 system system
     mkdir /data/vendor/qti-logkit/socket-public/ 2750 system diag
     mkdir /data/vendor/qti-logkit/logdata/ 2750 system shell
-
-    #Create SWAP related dirs
-    mkdir /data/system/swap 0770 root system
-    chmod 2770 /data/system/swap
 
     # Sensors
     chmod 0775 /persist/sensors
