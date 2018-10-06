@@ -35,6 +35,9 @@
 #include "log.h"
 #include "util.h"
 
+#define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
+#include <sys/_system_properties.h>
+
 char const *heapgrowthlimit;
 char const *heapminfree;
 
@@ -48,6 +51,17 @@ static void init_finger_print_properties()
 	} else {
 		property_set("ro.boot.fingerprint", "goodix");
 	}
+}
+
+void property_override(char const prop[], char const value[])
+{
+    prop_info *pi;
+
+    pi = (prop_info*) __system_property_find(prop);
+    if (pi)
+        __system_property_update(pi, value, strlen(value));
+    else
+        __system_property_add(prop, strlen(prop), value, strlen(value));
 }
 
 static void init_alarm_boot_properties()
@@ -104,10 +118,10 @@ void vendor_load_properties()
     check_device();
     init_finger_print_properties();
 
-    property_set("dalvik.vm.heapstartsize", "16m");
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", "512m");
-    property_set("dalvik.vm.heaptargetutilization", "0.75");
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", "8m");
+    property_override("dalvik.vm.heapstartsize", "16m");
+    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_override("dalvik.vm.heapsize", "512m");
+    property_override("dalvik.vm.heaptargetutilization", "0.75");
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", "8m");
 }
