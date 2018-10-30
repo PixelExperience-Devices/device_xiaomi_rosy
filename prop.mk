@@ -33,14 +33,7 @@ vendor.voice.conc.fallbackpath=deep-buffer \
 vendor.voice.path.for.pcm.voip=true \
 vendor.voice.playback.conc.disabled=true \
 vendor.voice.record.conc.disabled=false \
-vendor.voice.voip.conc.disabled=true \
-persist.audio.calfile0=/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-persist.audio.calfile1=/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb \
-persist.audio.calfile2=/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-persist.audio.calfile3=/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-persist.audio.calfile4=/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-persist.audio.calfile5=/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-persist.audio.calfile6=/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor.voice.voip.conc.disabled=true
 
 # Bluetooth
 PRODUCT_PROPERTY_OVERRIDES += \
