@@ -69,7 +69,10 @@ vendor/lib64/libbt-hidlclient.so
 # Bluetooth (shared dependencies) - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# CNE - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+# Charger - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+vendor/bin/hvdcp_opti
+
+# CNE - from Daisy PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
@@ -141,17 +144,14 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Charger - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
-vendor/bin/hvdcp_opti
-
-# DPM - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+# DPM - from Daisy PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
 
-# DRM - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+# DRM
 vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libGPreqcancel.so
