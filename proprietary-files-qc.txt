@@ -151,7 +151,7 @@ vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
 
-# DRM
+# DRM - from Daisy PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libGPreqcancel.so
@@ -167,10 +167,10 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-# DRM - Widevine - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+# DRM - Widevine - from Daisy PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
-vendor/lib/libwvhidl.so
+vendor/lib64/libwvhidl.so
 
 # Gatekeeper - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/hw/gatekeeper.msm8953.so
@@ -573,7 +573,7 @@ vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# TUI - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+# TUI - from Daisy PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 lib/vendor.qti.hardware.tui_comm@1.0.so
 lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
