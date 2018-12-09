@@ -319,11 +319,14 @@ PRODUCT_PACKAGES += \
     init.target.rc \
     ueventd.qcom.rc \
     init.rosy.rc \
-    init.goodix.sh
 
 PRODUCT_PACKAGES += \
+    init.goodix.sh \
+    init.msm.usb.configfs.rc \	
     init.qcom.bt.sh \
     init.baseband.sh \
+    move_time_data.sh \
+    move_wifi_data.sh \	
     init.qcom.post_boot.sh
 
 # RenderScript HAL
