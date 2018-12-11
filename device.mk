@@ -322,7 +322,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     init.goodix.sh \
-    init.msm.usb.configfs.rc \	
     init.qcom.bt.sh \
     init.baseband.sh \
     move_time_data.sh \
