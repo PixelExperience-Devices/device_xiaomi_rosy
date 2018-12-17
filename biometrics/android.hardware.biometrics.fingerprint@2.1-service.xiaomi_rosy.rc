@@ -18,7 +18,7 @@ on boot
     chmod 0700 /sys/devices/soc/soc:fpc1020/vendor
     chmod 0600 /data/misc/fpc/calibration_image.pndat
 
-service fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-custom
+service fps_hal /vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_rosy
     class late_start
     user system
     group system input
