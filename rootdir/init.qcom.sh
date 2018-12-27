@@ -370,7 +370,7 @@ cp /firmware/image/modem_pr/mbn_oin.txt /data/misc/radio/modem_config
 chown radio.radio /data/misc/radio/modem_config/mbn_oin.txt
 cp /firmware/image/modem_pr/mbn_ogl.txt /data/misc/radio/modem_config
 chown radio.radio /data/misc/radio/modem_config/mbn_ogl.txt
-setprop ro.runtime.mbn_copy_completed 1
+setprop ro.vendor.ril.mbn_copy_completed 1
 
 #check build variant for printk logging
 #current default minimum boot-time-default
