@@ -44,3 +44,11 @@ on property:dt2w.enabled=0
 on property:sys.fp.vendor=goodix
    setprop ro.boot.fpsensor goodix
    setprop persist.sys.fp.vendor goodix
+
+on post-fs-data
+
+    # IR nodes
+    chown system system /dev/spidev7.1
+    chown system system /dev/spidev6.1
+    chmod 0666 /dev/spidev7.1
+    chmod 0666 /dev/spidev6.1
