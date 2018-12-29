@@ -1,5 +1,5 @@
 #
-# system.prop for msm8953-common
+# system.prop for rosy/msm8953-common
 #
 
 # Audio
