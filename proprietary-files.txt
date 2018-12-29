@@ -1432,16 +1432,12 @@ etc/firmware/a540_gpmu.fw2:vendor/firmware/a540_gpmu.fw2
 # USB - from MIUI Stable - V9.2.3.0.NDAMIEK
 etc/firmware/ice40.bin:vendor/firmware/ice40.bin
 
-# fingerprint (fpc) - from MIUI Stable - V9.2.3.0.NDAMIEK
-lib64/hw/fingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so
-
-# fingerprint (goodix) - from MIUI Stable - V9.2.3.0.NDAMIEK
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
-
-# fingerprint (goodix) - - from vince
-lib64/hw/gf_fingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so
-lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
-lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
-lib64/libgf_algo.so:vendor/lib64/libgf_algo.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
-vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
+# Fingerprint - from MIUI BETA - 8.12.4 OPM1.171019.026
+lib64/hw/goodixfingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so 
+vendor/lib64/hw/fpcfingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so 
+lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so 
+lib64/libgf_ca.so:vendor/lib64/libgf_ca.so 
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so 
+vendor/lib64/com.fingerprints.extension@1.0.so 
+lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
+lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
