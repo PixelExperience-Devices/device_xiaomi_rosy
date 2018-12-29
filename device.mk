@@ -15,8 +15,8 @@
 #
 
 $(call inherit-product, vendor/xiaomi/rosy/rosy-vendor.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 $(call inherit-product, vendor/xiaomi/msm8953-common/msm8953-common-vendor.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n.mk)
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
@@ -287,7 +287,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
 
 # Properties
--include device/xiaomi/msm8953-common/prop.mk
+-include device/xiaomi/rosy/prop.mk
 
 # QMI
 PRODUCT_PACKAGES += \
