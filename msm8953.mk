@@ -205,7 +205,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/msm8953-snd-card-mtp_Button_Jack.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/msm8953-snd-card-mtp_Button_Jack.kl
 
 # IPA Manager
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     ipacm \
     IPACM_cfg.xml
 
