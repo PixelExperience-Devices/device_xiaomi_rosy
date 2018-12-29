@@ -1,4 +1,6 @@
-# Copyright (c) 2009-2012, 2014-2017, The Linux Foundation. All rights reserved.
+#! /vendor/bin/sh
+
+# Copyright (c) 2009-2016, The Linux Foundation. All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
 # modification, are permitted provided that the following conditions are met:
@@ -25,36 +27,6 @@
 # ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 #
 
-on boot
-
-    # Glove Mode
-    chown system system /sys/class/tp_glove/device/glove_enable
-    chmod 0660 /sys/class/tp_glove/device/glove_enable
-
-# DT2W
-on property:dt2w.enabled=1
-    write /proc/gesture/onoff 1
-	
-on property:dt2w.enabled=0
-    write /proc/gesture/onoff 0	
-
-    chmod 0660 /proc/gesture/onoff
-    chown system system /proc/gesture/onoff
-
-# fingerprint-goodix
-service goodix_script /vendor/bin/init.goodix.sh
-    class late_start
-    user root
-    oneshot
-
-on property:sys.fp.vendor=goodix
-   setprop ro.boot.fpsensor goodix
-   setprop persist.sys.fp.vendor goodix
-
-on post-fs-data
-
-    # IR nodes
-    chown system system /dev/spidev7.1
-    chown system system /dev/spidev6.1
-    chmod 0666 /dev/spidev7.1
-    chmod 0666 /dev/spidev6.1
+if [ ! -f /data/system/users/0/settings_fingerprint.xml ]; then
+    rm -rf /persist/data/finger_*
+fi
