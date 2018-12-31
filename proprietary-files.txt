@@ -1404,32 +1404,32 @@ lib64/hw/consumerir.default.so:vendor/lib64/hw/consumerir.default.so
 -etc/qdcm_calib_data_ft8613_csot_5p7_720p_video.xml:vendor/etc/qdcm_calib_data_ft8613_csot_5p7_720p_video.xml
 -etc/qdcm_calib_data_ft8613_ebbg_5p7_720p_video.xml:vendor/etc/qdcm_calib_data_ft8613_ebbg_5p7_720p_video.xml
 
-# Graphics firmware - from MIUI Stable - V9.2.3.0.NDAMIEK
-etc/firmware/a225p5_pm4.fw:vendor/firmware/a225p5_pm4.fw
-etc/firmware/a225_pfp.fw:vendor/firmware/a225_pfp.fw
-etc/firmware/a225_pm4.fw:vendor/firmware/a225_pm4.fw
-etc/firmware/a300_pfp.fw:vendor/firmware/a300_pfp.fw
-etc/firmware/a300_pm4.fw:vendor/firmware/a300_pm4.fw
-etc/firmware/a330_pfp.fw:vendor/firmware/a330_pfp.fw
-etc/firmware/a330_pm4.fw:vendor/firmware/a330_pm4.fw
-etc/firmware/a420_pfp.fw:vendor/firmware/a420_pfp.fw
-etc/firmware/a420_pm4.fw:vendor/firmware/a420_pm4.fw
-etc/firmware/a506_zap.b00:vendor/firmware/a506_zap.b00
-etc/firmware/a506_zap.b01:vendor/firmware/a506_zap.b01
-etc/firmware/a506_zap.b02:vendor/firmware/a506_zap.b02
-etc/firmware/a506_zap.elf:vendor/firmware/a506_zap.elf
-etc/firmware/a506_zap.mdt:vendor/firmware/a506_zap.mdt
-etc/firmware/a530_gpmu.fw2:vendor/firmware/a530_gpmu.fw2
-etc/firmware/a530_pfp.fw:vendor/firmware/a530_pfp.fw
-etc/firmware/a530_pm4.fw:vendor/firmware/a530_pm4.fw
-etc/firmware/a530v1_pfp.fw:vendor/firmware/a530v1_pfp.fw
-etc/firmware/a530v1_pm4.fw:vendor/firmware/a530v1_pm4.fw
-etc/firmware/a530v2_seq.fw2:vendor/firmware/a530v2_seq.fw2
-etc/firmware/a530v3_gpmu.fw2:vendor/firmware/a530v3_gpmu.fw2
-etc/firmware/a530v3_seq.fw2:vendor/firmware/a530v3_seq.fw2
-etc/firmware/a540_gpmu.fw2:vendor/firmware/a540_gpmu.fw2
+# Graphics firmware - from MIUI BETA - 8.12.4 OPM1.171019.026
+vendor/firmware/a225p5_pm4.fw
+vendor/firmware/a225_pfp.fw
+vendor/firmware/a225_pm4.fw
+vendor/firmware/a300_pfp.fw
+vendor/firmware/a300_pm4.fw
+vendor/firmware/a330_pfp.fw
+vendor/firmware/a330_pm4.fw
+vendor/firmware/a420_pfp.fw
+vendor/firmware/a420_pm4.fw
+vendor/firmware/a506_zap.b00
+vendor/firmware/a506_zap.b01
+vendor/firmware/a506_zap.b02
+vendor/firmware/a506_zap.elf
+vendor/firmware/a506_zap.mdt
+vendor/firmware/a530_gpmu.fw2
+vendor/firmware/a530_pfp.fw
+vendor/firmware/a530_pm4.fw
+vendor/firmware/a530v1_pfp.fw
+vendor/firmware/a530v1_pm4.fw
+vendor/firmware/a530v2_seq.fw2
+vendor/firmware/a530v3_gpmu.fw2
+vendor/firmware/a530v3_seq.fw2
+vendor/firmware/a540_gpmu.fw2
 
-# USB - from MIUI Stable - V9.2.3.0.NDAMIEK
+# USB - from MIUI BETA - 8.12.4 OPM1.171019.026
 etc/firmware/ice40.bin:vendor/firmware/ice40.bin
 
 # Fingerprint - from MIUI BETA - 8.12.4 OPM1.171019.026
