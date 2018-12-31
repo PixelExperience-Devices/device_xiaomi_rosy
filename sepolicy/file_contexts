@@ -1,3 +1,40 @@
+# Block devices
+/dev/block/mmcblk0p26				u:object_r:persist_block_device:s0
+
+# Bluetooth
+/(vendor|system/vendor)/bin/hci_qcomm_init	u:object_r:bluetooth_loader_exec:s0
+
+# Fingerprint HIDL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-custom     u:object_r:hal_fingerprint_default_exec:s0
+
+# Fingerprint
+/data/gf_data/frr_database.db                                 u:object_r:fingerprint_data_file:s0
+/persist/data/gf*                                             u:object_r:fingerprint_data_file:s0
+/data/vendor/fpc(/.*)?                                        u:object_r:fingerprint_data_file:s0
+/data/vendor/goodix(/.*)?                                     u:object_r:fingerprint_data_file:s0
+/data/misc/gf_data(/.*)?                                      u:object_r:fingerprint_data_file:s0
+/data/gf_data(/.*)?                                           u:object_r:fingerprint_data_file:s0
+/data/misc/goodix(/.*)?                                       u:object_r:fingerprint_data_file:s0
+/persist/fpc(/.*)?                                            u:object_r:fingerprint_persist_file:s0
+/sys/devices/soc/soc:fpc1020.*/irq                            u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fpc1020.*/hw_reset                       u:object_r:sysfs_fpc_dev:s0
+/sys/devices/soc/soc:fpc1020.*/wakeup_enable                  u:object_r:sysfs_fpc_dev:s0
+
+# Fingerprint
+/dev/goodix_fp  u:object_r:fingerprintd_device:s0
+
+# Glove Mode
+/sys/class/tp_glove/tp_glove/glove_enable	u:object_r:proc_touchpanel:s0
+
+# Input files
+/(vendor|system/vendor)/usr/idc(/.*)?		u:object_r:idc_file:s0
+/(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0
+
+# Ir
+/dev/spidev6.1                                  u:object_r:spidev_device:s0                                
+/dev/spidev7.1                                  u:object_r:spidev_device:s0
+/sys/devices/soc/soc:gpio-leds/leds/infrared/transmit     u:object_r:sysfs_leds:s0
+
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_msm8953 u:object_r:hal_light_default_exec:s0
 

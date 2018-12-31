@@ -1,1 +1,4 @@
 type lirc_device, dev_type;
+
+# Spidev IR node
+type spidev_device, dev_type;
