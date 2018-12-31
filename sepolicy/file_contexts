@@ -23,9 +23,6 @@
 # Fingerprint
 /dev/goodix_fp  u:object_r:fingerprintd_device:s0
 
-# Glove Mode
-/sys/class/tp_glove/tp_glove/glove_enable	u:object_r:proc_touchpanel:s0
-
 # Input files
 /(vendor|system/vendor)/usr/idc(/.*)?		u:object_r:idc_file:s0
 /(vendor|system/vendor)/usr/keylayout(/.*)?	u:object_r:keylayout_file:s0

@@ -27,10 +27,6 @@
 
 on boot
 
-    # Glove Mode
-    chown system system /sys/class/tp_glove/device/glove_enable
-    chmod 0660 /sys/class/tp_glove/device/glove_enable
-
 # DT2W
 on property:dt2w.enabled=1
     write /proc/gesture/onoff 1
