@@ -131,8 +131,7 @@ public class DozeSettingsFragment extends PreferenceFragment implements OnPrefer
 
     @Override
     public boolean onPreferenceChange(Preference preference, Object newValue) {
-        DozeUtils.enableGesture(getActivity(), preference.getKey(), (Boolean) newValue);
-        DozeUtils.checkDozeService(getActivity());
+        mHandler.post(() -> DozeUtils.checkDozeService(getActivity()));
         return true;
     }
 
