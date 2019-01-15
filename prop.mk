@@ -84,6 +84,12 @@ ro.opengles.version=196610 \
 ro.qualcomm.cabl=0 \
 ro.sf.lcd_density=320
 
+# Dex2oat optimisation
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.boot-dex2oat-threads=8 \
+dalvik.vm.dex2oat-threads=4 \
+dalvik.vm.image-dex2oat-threads=4
+
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
@@ -120,7 +126,6 @@ vendor.vidc.enc.disable_bframes=1
 
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
-ro.sys.fw.dex2oat_thread_count=4 \
 ro.vendor.extension_library=libqti-perfd-client.so
 
 # Netmgrd
