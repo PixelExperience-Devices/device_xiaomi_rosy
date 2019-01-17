@@ -38,8 +38,7 @@ public class DozeService extends Service {
         mProximitySensor = new ProximitySensor(this);
         mTiltSensor = new TiltSensor(this);
 
-        IntentFilter screenStateFilter = new IntentFilter();
-        screenStateFilter.addAction(Intent.ACTION_SCREEN_ON);
+        IntentFilter screenStateFilter = new IntentFilter(Intent.ACTION_SCREEN_ON);
         screenStateFilter.addAction(Intent.ACTION_SCREEN_OFF);
         registerReceiver(mScreenStateReceiver, screenStateFilter);
     }
