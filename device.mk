@@ -361,7 +361,7 @@ PRODUCT_PACKAGES += \
 
 # USB HAL
 PRODUCT_PACKAGES += \
-    android.hardware.usb@1.0-service.xiaomi_8996
+    android.hardware.usb@1.0-service.xiaomi_rosy
 
 # VNDK
 PRODUCT_PACKAGES += \
