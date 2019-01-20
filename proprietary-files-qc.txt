@@ -549,6 +549,7 @@ vendor/bin/thermal-engine
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
+vendor/lib64/libthermalfeature.so
 
 # Time services
 -vendor/app/TimeService/TimeService.apk
