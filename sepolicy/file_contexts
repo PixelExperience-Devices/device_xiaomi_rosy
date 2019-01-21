@@ -32,6 +32,9 @@
 /dev/spidev7.1                                  u:object_r:spidev_device:s0
 /sys/devices/soc/soc:gpio-leds/leds/infrared/transmit     u:object_r:sysfs_leds:s0
 
+# HALs
+/(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey
+
 # Light HAL
 /(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_msm8953 u:object_r:hal_light_default_exec:s0
 
