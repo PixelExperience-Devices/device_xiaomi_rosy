@@ -64,10 +64,9 @@ persist.camera.stats.test=5 \
 persist.vendor.qti.telephony.vt_cam_interface=1 \
 vidc.enc.dcvs.extra-buff-count=2
 
-# Cne/Dpm
+# Cne
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.cne.feature=1 \
-persist.dpm.feature=1
+persist.vendor.cne.feature=1
 
 # Coresight
 PRODUCT_PROPERTY_OVERRIDES += \
