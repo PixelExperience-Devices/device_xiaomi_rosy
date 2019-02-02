@@ -35,8 +35,8 @@ public class BootCompletedReceiver extends BroadcastReceiver {
 
         if (DozeUtils.isDozeEnabled(context) && DozeUtils.sensorsEnabled(context)) {
             if (DEBUG) Log.d(TAG, "Starting Doze service");
-	    DiracUtils.initialize();
             DozeUtils.startService(context);
         }
+        DiracUtils.initialize(context);
     }
 }
