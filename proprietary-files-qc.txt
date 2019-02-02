@@ -371,9 +371,13 @@ vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
 -lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
+lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
+lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
 lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
 lib/vendor.qti.hardware.qdutils_disp@1.0.so|09fb9cae13bf5edb70aa7568c7bf457db7415dc8
 -lib64/vendor.display.color@1.0.so|ec75654927c63b74c7f8d0760fa463f0e8287f25
+lib64/vendor.display.color@1.1.so|28dd1ef69ea74f5623746bbac5c483a3f3b46990
+lib64/vendor.display.color@1.2.so|2c61fe34f1b7548b258812c85920aa82f6b3a8db
 lib64/vendor.display.postproc@1.0.so|b95e9f990a207d5c62db4d66f5aaf088adc02ba8
 lib64/vendor.qti.hardware.qdutils_disp@1.0.so|de6aade2863c03d5b3e234bf87bd398b8f23b13d
 vendor/bin/hw/vendor.display.color@1.0-service|2dbbb46a62ac5cf8d3a084c8350457442f5741eb
@@ -383,10 +387,14 @@ vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
 vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
 vendor/lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
+vendor/lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
+vendor/lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
 vendor/lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
 vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|09fb9cae13bf5edb70aa7568c7bf457db7415dc8
 vendor/lib64/libdisp-aba.so|2b9a85de013e956f1adfaf00146a865efb7077c4
 vendor/lib64/vendor.display.color@1.0.so|ec75654927c63b74c7f8d0760fa463f0e8287f25
+vendor/lib64/vendor.display.color@1.1.so|28dd1ef69ea74f5623746bbac5c483a3f3b46990
+vendor/lib64/vendor.display.color@1.2.so|2c61fe34f1b7548b258812c85920aa82f6b3a8db
 vendor/lib64/vendor.display.postproc@1.0.so|b95e9f990a207d5c62db4d66f5aaf088adc02ba8
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|de6aade2863c03d5b3e234bf87bd398b8f23b13d
 
