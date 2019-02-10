@@ -5,7 +5,7 @@
 /(vendor|system/vendor)/bin/hci_qcomm_init	u:object_r:bluetooth_loader_exec:s0
 
 # Fingerprint HIDL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service-custom     u:object_r:hal_fingerprint_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.biometrics\.fingerprint@2\.1-service\.xiaomi_rosy   u:object_r:hal_fingerprint_default_exec:s0
 
 # Fingerprint
 /data/gf_data/frr_database.db                                 u:object_r:fingerprint_data_file:s0
@@ -37,7 +37,7 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.drm@1\.1-service\.clearkey
 
 # Light HAL
-/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_msm8953 u:object_r:hal_light_default_exec:s0
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light@2\.0-service\.xiaomi_rosy u:object_r:hal_light_default_exec:s0
 
 # Rild
 /(vendor|system/vendor)/radio/qcril_database/qcril.db			u:object_r:rild_file:s0
