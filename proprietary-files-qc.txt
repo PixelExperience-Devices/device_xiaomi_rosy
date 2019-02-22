@@ -500,8 +500,10 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|d30462843
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|e9bcbdf6544c5334a1f2e461d733d5766cd1b129
 vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
+# Radio -ims.apk - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+-priv-app/ims/ims.apk
+
 # Radio - IMS - from tissot - OPR1.170623.026.V9.5.4.0.ODHMIFA
--app/ims/ims.apk|406f0c50b44480789072222a6ba120894dc02394
 -app/imssettings/imssettings.apk
 -app/uceShimService/uceShimService.apk
 etc/permissions/qti-vzw-ims-internal.xml
