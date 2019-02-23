@@ -59,18 +59,17 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 
-# Bluetooth - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Bluetooth - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
-vendor/bin/wcnss_filter
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-hidlclient.so
 
-# Bluetooth (shared dependencies) - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Bluetooth (shared dependencies) - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
-# CNE - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# CNE - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 etc/permissions/cneapiclient.xml
 etc/permissions/com.quicinc.cne.xml
 framework/cneapiclient.jar
@@ -142,17 +141,17 @@ vendor/lib64/libcneqmiutils.so
 vendor/lib64/libwqe.so
 vendor/lib64/libxml.so
 
-# Charger
+# Charger - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/hvdcp_opti
 
-# DPM - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# DPM - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/dpmQmiMgr
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib64/libdpmqmihal.so
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so
 vendor/lib/libdpmqmihal.so
 
-# DRM
+# DRM - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/qseecomd
 vendor/lib/libQSEEComAPI.so
 vendor/lib64/libGPreqcancel.so
@@ -168,12 +167,12 @@ vendor/lib64/libsecureui.so
 vendor/lib64/libsecureui_svcsock.so
 vendor/lib64/libssd.so
 
-# DRM - Widevine - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# DRM - Widevine - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib/libwvhidl.so
 
-# Gatekeeper
+# Gatekeeper - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/hw/gatekeeper.msm8953.so
 vendor/lib64/hw/gatekeeper.msm8953.so
 
@@ -217,7 +216,7 @@ vendor/lib64/vendor.qti.gnss@1.2.so
 vendor/lib64/vendor.qti.gnss@2.0.so
 vendor/lib64/vendor.qti.gnss@2.1.so
 
-# Graphics - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Graphics - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/egl/eglSubDriverAndroid.so
 vendor/lib/egl/libEGL_adreno.so
 vendor/lib/egl/libGLESv1_CM_adreno.so
@@ -275,7 +274,7 @@ vendor/lib64/libsdm-diag.so|7ab5d2a980029ac9bd20fe68656823b21e483e11
 vendor/lib64/libsdmextension.so|e91aaf852df780e42bb083c3089f5b42c87c49f7
 vendor/lib64/libtinyxml2_1.so|b743b93bbb47bb2d80322fcfb985b7b8c696fa1b
 
-# Graphics firmware - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Graphics firmware - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/firmware/a506_zap.b00
 vendor/firmware/a506_zap.b01
 vendor/firmware/a506_zap.b02
@@ -283,10 +282,10 @@ vendor/firmware/a506_zap.mdt
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Ipacm
+# Ipacm - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/ipacm-diag
 
-# Keystore
+# Keystore - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/hw/keystore.msm8953.so
 vendor/lib64/hw/keystore.msm8953.so
 
@@ -298,7 +297,7 @@ vendor/lib/libadpcmdec.so
 vendor/lib/libsmwrapper.so
 vendor/lib/vendor.qti.voiceprint@1.0.so
 
-# Media
+# Media - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/libI420colorconvert.so
 vendor/lib/libmmosal_proprietary.so
 vendor/lib/libOmxAacDec.so
@@ -364,7 +363,7 @@ vendor/bin/pm-service
 vendor/lib/libperipheral_client.so
 vendor/lib64/libperipheral_client.so
 
-# Postprocessing - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Postprocessing - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 etc/permissions/com.qti.snapdragon.sdk.display.xml
 framework/com.qti.snapdragon.sdk.display.jar
 -lib/vendor.display.color@1.0.so
@@ -387,7 +386,7 @@ vendor/lib64/vendor.display.color@1.0.so
 vendor/lib64/vendor.display.postproc@1.0.so
 vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so
 
-# Power-off alarm - from daisy - V10.0.2.0.PDLMIFJ PKQ1.180917.001
+# Power-off alarm - from Tissot - V10.0.5.0.PDHMIXM PKQ1.180917.001
 framework/vendor.qti.hardware.alarm-V1.0-java.jar
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service
@@ -487,7 +486,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_client@1.0_vendor.so|d30462843
 vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so|e9bcbdf6544c5334a1f2e461d733d5766cd1b129
 vendor/radio/qcril_database/qcril.db|8405d20c8e1184c79eba1c4f19ecfb92d7529bdf
 
-# Radio -ims.apk - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Radio -ims.apk - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 -priv-app/ims/ims.apk
 
 # Radio - IMS - from tissot - OPR1.170623.026.V9.5.4.0.ODHMIFA
@@ -567,24 +566,24 @@ vendor/bin/thermal-engine
 -vendor/lib64/libthermalclient.so
 vendor/lib64/libthermalioctl.so
 
-# Time services - from Tissot V10.0.2.0.PDHMIFK PKQ1.180917.001
+# Time services - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 -vendor/app/TimeService/TimeService.apk
 vendor/bin/time_daemon
 -vendor/lib/libtime_genoff.so
 -vendor/lib64/libtime_genoff.so
 
-# TUI
+# TUI - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 lib/vendor.qti.hardware.tui_comm@1.0.so
 lib64/vendor.qti.hardware.tui_comm@1.0.so
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0_vendor.so
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0_vendor.so
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so
 
-# Wi-Fi
+# Wi-Fi - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/wcnss_service
 
-# Wi-Fi Display
+# Wi-Fi Display - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 bin/wfdservice
 etc/init/wfdservice.rc
 etc/wfdconfig.xml
