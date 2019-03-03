@@ -57,9 +57,6 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so|20e66aaca57c6ba6df800
 vendor/lib64/libbtnv.so|136dc47f7d16a841e9c6ad909753e96a41392534
 vendor/lib64/libbt-hidlclient.so|0b0b69ef9787e3cd5409f0050cad03698dd6ce26
 
-# Bluetooth (shared dependencies) - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
-
 # Camera firmware
 vendor/firmware/cpp_firmware_v1_8_0.fw
 vendor/firmware/cpp_firmware_v1_5_0.fw
@@ -170,6 +167,18 @@ vendor/lib64/librpmb.so|ba775205529284dc5d2233f11462037538f763af
 vendor/lib64/libsecureui.so|66befbd91628d464b71e1cd523eb111d517a5b84
 vendor/lib64/libsecureui_svcsock.so|ab9ec06666c6c63e4a30b2fe503e6088aab3629d
 vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
+
+# FM - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+lib/fm_helium.so|fb2a591a61122bbdf818ba9e6c931aa7c3d8a953
+lib/libfm-hci.so|b066567e07279bf59e78f7d318302dd706bb80fe
+-lib/vendor.qti.hardware.fm@1.0.so|3c725ea0f85bf709bcf77761d707abf7660b1c4d
+lib64/libfm-hci.so|24cd3321d251409aec7d5b6fe160c9fd37a12af5
+lib64/fm_helium.so|e41e3a18f5a0dc666adad471e7332c707b4d2044
+-lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|abbb8f5d5165d98f8b6fb6a32f5bc1e1deb6dca8
+vendor/lib/vendor.qti.hardware.fm@1.0.so|3c725ea0f85bf709bcf77761d707abf7660b1c4d
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|da8f10c9914e3cea26ee97b8d060fca6f1e5f8e8
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
 
 # Gatekeeper - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
 vendor/lib/hw/gatekeeper.msm8953.so|fb3693904e3b26250157ab5be21ef977971a3382
