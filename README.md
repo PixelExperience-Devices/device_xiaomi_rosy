@@ -2,6 +2,24 @@ Copyright (C) 2017 - The LineageOS Project
 
 # Device Tree for Xiaomi Redmi 5 (rosy)
 
+## Working
+- [x] Bluetooth
+- [x] Camera
+- [x] Flashlight
+- [x] FM Radio
+- [x] GPS
+- [x] Hotspot
+- [x] Offline Charging
+- [x] RIL
+- [x] Sensors
+- [x] Sound
+- [x] Wifi
+
+## Not Working:
+- [ ] Google Assistant
+- [ ] GPS - Device Only Mode?
+- [ ] VoLTE
+
 ## Device specifications
 
 | Feature                 | Specification                           |
