@@ -1,21 +1,5 @@
 # Audio ACDB
 vendor/etc/acdbdata/adsp_avs_config.acdb
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Global_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Speaker_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_General_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/msm8953-sku4-snd-card/QRD_SKU4_workspaceFile.qwsp
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
@@ -32,20 +16,6 @@ vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_General_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Global_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Handset_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Headset_cal.acdb
-vendor/etc/acdbdata/MTP_Global/MTP_Global_Speaker_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_General_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Global_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Handset_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Headset_cal.acdb
-vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Speaker_cal.acdb
 
 # Camera
 #lib/libMiCameraHal.so
