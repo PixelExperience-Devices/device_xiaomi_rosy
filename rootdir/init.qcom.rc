@@ -484,9 +484,6 @@ service vendor.move_time_data /system/bin/move_time_data.sh
     disabled
     oneshot	
 
-on property:dev.bootcomplete=1
-    setprop sys.io.scheduler "bfq"
-
 service vendor.audio-hal-2-0 /vendor/bin/hw/android.hardware.audio@2.0-service
     override
     class hal
