@@ -91,4 +91,7 @@ void vendor_load_properties()
     property_override("dalvik.vm.heaptargetutilization", "0.75");
     property_override("dalvik.vm.heapminfree", heapminfree);
     property_override("dalvik.vm.heapmaxfree", "8m");
+    property_override("ro.build.description", "rosy-user 7.1.2 N2G47H V9.2.3.0.NDAMIEK release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }

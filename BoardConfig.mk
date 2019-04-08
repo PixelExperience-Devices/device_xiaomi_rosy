@@ -243,3 +243,4 @@ WIFI_HIDL_FEATURE_AWARE := true
 # Inherit from the proprietary version
 -include vendor/xiaomi/rosy/BoardConfigVendor.mk
 -include vendor/xiaomi/msm8953-common/BoardConfigVendor.mk
+
