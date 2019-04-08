@@ -548,8 +548,8 @@ vendor/lib64/lib-uceservice.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 
-# Sensors
-vendor/bin/sensors.qcom
+# Sensors - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
+vendor/bin/sensors.qti
 vendor/lib/hw/activity_recognition.msm8953.so
 vendor/lib/libsensor1.so
 vendor/lib/libsensor_reg.so
