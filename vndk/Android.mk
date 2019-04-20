@@ -34,10 +34,6 @@ VNDK_SP_LIBRARIES := \
     libdexfile \
     libz
 
-EXTRA_VENDOR_LIBRARIES := \
-    vendor.display.color@1.0 \
-    vendor.display.config@1.0
-
 # FIXME: Generate INSTALL_IN_HW_SUBDIR automatically
 INSTALL_IN_HW_SUBDIR := android.hidl.memory@1.0-impl
 
