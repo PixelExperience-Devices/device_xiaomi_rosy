@@ -55,8 +55,11 @@ vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbtnv.so
 vendor/lib64/libbt-hidlclient.so
 
-# Bluetooth (shared dependencies) - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
-vendor/lib64/vendor.qti.hardware.fm@1.0.so
+# Bluetooth (aptX) - from marlin - OPM1.171019.011
+lib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127
+lib/libaptX_encoder.so|984739a0bc968e18f75ced205733fe3f51c2d4f0
+lib/libaptXHD_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e01c
 
 # Charger - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/bin/hvdcp_opti
@@ -160,6 +163,9 @@ vendor/lib64/libssd.so
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
 vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc
 vendor/lib64/libwvhidl.so
+
+# FM Radio - 
+vendor/lib64/vendor.qti.hardware.fm@1.0.so
 
 # Gatekeeper - from Tissot V10.0.5.0.PDHMIXM PKQ1.180917.001
 vendor/lib/hw/gatekeeper.msm8953.so
