@@ -1,4 +1,4 @@
-# ADSP - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# ADSP - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/adsprpcd|3d1e7e14dfc2f2468a06e0af9c0d34f4bda28d4b
 vendor/lib/libadsprpc.so|a2ff69f96a9242d4be0fe5cae2475c23294f937a
 vendor/lib/libadsp_default_listener.so|d9de89d55eba2d35a7583584b51335a663705fa7
@@ -22,7 +22,7 @@ vendor/lib/rfsa/adsp/libfastcvadsp.so
 vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so
 vendor/lib/rfsa/adsp/libscveT2T_skel.so
 
-# Audio - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Audio - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/libacdb-fts.so|c083481fd845c4b07bd56d12b6d7e0b207018c8c
 vendor/lib/libacdbloader.so|decfaa58ffb6c5bf4fd5555bee50eb01683953e8
 vendor/lib/libacdbrtac.so|3f21db59672abd74ddb1e50990abf0b41eea06f6
@@ -50,10 +50,10 @@ vendor/lib64/soundfx/libqcvirt.so|815b3a7cd762cdb6f162dde12c866acb23cdd022
 lib64/libaptX_encoder.so|22f5749edb5099526788c22708099a7791dd837f
 lib64/libaptXHD_encoder.so|c4ad4d6d7615f7df3ea1a4be5c6dae8a8c8ee8b1
 
-# ANT+ (vendor) - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-vendor/lib64/com.qualcomm.qti.ant@1.0.so|3a19c81d66ef1190d0b2f361420d5cbf707cc600
+# ANT+ (vendor) - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
+vendor/lib64/com.qualcomm.qti.ant@1.0.so|b35afe2c22970170a2164be199c65bb328a17383
 
-# Bluetooth - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Bluetooth - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti|9178856dc8651b499d1b155825b6115a486ee05e
 vendor/bin/wcnss_filter|a8c9bb84629693a3e57fd9d24d8819454bfcc38a
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc|a979981c55f3dcaf6cf2212e71b901ca4d58b959
@@ -74,14 +74,14 @@ vendor/firmware/cpp_firmware_v1_10_0.fw
 vendor/firmware/cpp_firmware_v1_5_2.fw
 vendor/firmware/cpp_firmware_v1_1_6.fw
 
-# CNE - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# CNE - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
 framework/cneapiclient.jar|af7db889362e562a4c5073bb6aae32947218abf0
 framework/com.quicinc.cne.api-V1.0-java.jar|9cf7b7f1784c3594e3329954f64b1b129c433e8d
 framework/com.quicinc.cne.jar|ce985797730a043142c2312e30ada28cb755faef
-lib/vendor.qti.hardware.data.latency@1.0.so|66fd23bd078617f020c911efc806f08111d582fc
-lib64/vendor.qti.hardware.data.latency@1.0.so|7204cf8f2dcf8c88b531b86b0da0e643f1de6487
+lib/vendor.qti.hardware.data.latency@1.0.so|fdfe3c095f8d25af879b5b1f61d7c0e4c8c5a36c
+lib64/vendor.qti.hardware.data.latency@1.0.so|9e500d224a97f7355feb6752b984a3f69bc4a0fd
 -priv-app/CNEService/CNEService.apk|4c6ee655fcdda500f4999ca9b3e1c028af2c8a71
 vendor/bin/cnd|81c0f2beecb6f375b4d460adbfb739b8aa970a70
 vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml|578f3f8f56059bfdbef926bcc68d01c15e06951f
@@ -113,11 +113,11 @@ vendor/lib/com.quicinc.cne.server@2.0.so|9c9df36a1aa20e6564f4221caccca023ccadd89
 vendor/lib/com.quicinc.cne.server@2.1.so|bf864fa6a01ca0f621574ad8bdc0cc9bc6f80e29
 vendor/lib/com.quicinc.cne.server@2.2.so|83ef52397be1b0242462a76afa088e0efc75d68b
 vendor/lib/vendor.qti.data.factory@1.0.so|199a5ec73df44a9f7aafebb16c53c464f212bef4
-vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so|7ae4a5c533e98861d7a60cde397be9b74c3a76f8
-vendor/lib/vendor.qti.hardware.data.latency@1.0.so|66fd23bd078617f020c911efc806f08111d582fc
+vendor/lib/vendor.qti.hardware.data.dynamicdds@1.0.so|5fa8242c28e27fa936c100edcdf2e555d0972113
+vendor/lib/vendor.qti.hardware.data.latency@1.0.so|fdfe3c095f8d25af879b5b1f61d7c0e4c8c5a36c
 vendor/lib/vendor.qti.hardware.data.qmi@1.0.so|5be44eace9f2b832d5155838c56fe78fda2e7b6b
-vendor/lib/vendor.qti.ims.rcsconfig@1.0.so|241ce819f3c8ae5b89f2fa50f0a491ee22506406
-vendor/lib/vendor.qti.latency@2.0.so|56ba7ca9b4dc60877d1a8472efc0c8f88a5ad07d
+vendor/lib/vendor.qti.ims.rcsconfig@1.0.so|daa0f9c100dd2dd2469ac1adebbc30f71133caab
+vendor/lib/vendor.qti.latency@2.0.so|ad57fd45875bbc337264c477e36102907e89188f
 vendor/lib/libcne.so|d9074ec2d803a5aaefb898b4b45cd17d8f05dcaf
 vendor/lib/libcneapiclient.so|7dda3d2b909c4917f3c115cac984d5eb12fa66ed
 vendor/lib/libcneoplookup.so|6729fe40f4f2c32670da10f027ea978cd9b40d40
@@ -134,11 +134,11 @@ vendor/lib64/com.quicinc.cne.server@2.0.so|403dee79f2adf024a44947c5131c00e119db8
 vendor/lib64/com.quicinc.cne.server@2.1.so|ed78619bc3a4b54c57183c943ce2147c7aa58920
 vendor/lib64/com.quicinc.cne.server@2.2.so|3bb958c5cba5d448cfb2f52f5af31779f91fe4c5
 vendor/lib64/vendor.qti.data.factory@1.0.so|648517a078dcc8a3810f10fc977ca38db509aa91
-vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|618e11074d4b2351f96e15c4c6897b0fe424cc03
-vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|7204cf8f2dcf8c88b531b86b0da0e643f1de6487
+vendor/lib64/vendor.qti.hardware.data.dynamicdds@1.0.so|b8cafbf45cefbb06d5c89a1f77707bbbe02500f3
+vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|9e500d224a97f7355feb6752b984a3f69bc4a0fd
 vendor/lib64/vendor.qti.hardware.data.qmi@1.0.so|b1c83ea1046e5e356e0b0a74b99d7a3a96c7fc0b
-vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|cbc75b554051298020506d85427a1aa70346fbd5
-vendor/lib64/vendor.qti.latency@2.0.so|15e50ce40e210993343406947dd2c959920f40c8
+vendor/lib64/vendor.qti.ims.rcsconfig@1.0.so|5811c07b2fe8a7b05452585ca93507220384a0b6
+vendor/lib64/vendor.qti.latency@2.0.so|511fed2261e65efb633b6661ee25d70ddbca2758
 vendor/lib64/libcne.so|249e8cf3bd9f8e9dce7090a6850fc1d79acc7f36
 vendor/lib64/libcneapiclient.so|9e121b96ce15e33aaf9318b7b93eaa49a644b7cf
 vendor/lib64/libcneoplookup.so|86c694067e735b86efa04871fde8a9a7a81161d8
@@ -146,17 +146,17 @@ vendor/lib64/libcneqmiutils.so|cf5b5620754c28002d081d795e89c1aa50b96032
 vendor/lib64/libwqe.so|47afecb9615f1dcad01e2d36f47a08229f5c43aa
 vendor/lib64/libxml.so|dba175d291e1adc004bf1463db091cde95a0d92d
 
-# Charger - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Charger - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/hvdcp_opti|7ee82dd264c7c349fb498111a61d5009ae9f0da2
 
-# DPM - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# DPM - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/dpmQmiMgr|31e019a02d25a959a2edfe2c9a04ab958562bb67
 vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|2af88934e4039edaac842576a1861cbdfe39838b
 vendor/lib64/libdpmqmihal.so|4254cc9f10f6f3d990958c17f4e43d8e9e09c382
 vendor/lib/com.qualcomm.qti.dpm.api@1.0.so|658b574dc31f2f7f87e52c75c9564d59bed8873f
 vendor/lib/libdpmqmihal.so|150b719f2a33ed70cd50e5f6d6ccad8ea3c34eea
 
-# DRM - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# DRM - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/qseecomd|8ba233a028eec55d2f57ed7c85c6751e8f5c5d16
 vendor/lib/libQSEEComAPI.so|3a4de1c673d0e196c553fbfcec0ee4a3275915af
 vendor/lib64/libGPreqcancel.so|942e96e6c1706b52e0b2f898c5947f16f8612994
@@ -172,32 +172,32 @@ vendor/lib64/libsecureui.so|66befbd91628d464b71e1cd523eb111d517a5b84
 vendor/lib64/libsecureui_svcsock.so|ab9ec06666c6c63e4a30b2fe503e6088aab3629d
 vendor/lib64/libssd.so|0e988e6ef7b1d356f4b92a26a61b96a840de1d20
 
-# FM - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# FM - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 lib/fm_helium.so|fb2a591a61122bbdf818ba9e6c931aa7c3d8a953
 lib/libfm-hci.so|b066567e07279bf59e78f7d318302dd706bb80fe
--lib/vendor.qti.hardware.fm@1.0.so|3c725ea0f85bf709bcf77761d707abf7660b1c4d
+-lib/vendor.qti.hardware.fm@1.0.so|b438141abfb4a52cf82b9680326c22495e6de450
 lib64/libfm-hci.so|24cd3321d251409aec7d5b6fe160c9fd37a12af5
 lib64/fm_helium.so|e41e3a18f5a0dc666adad471e7332c707b4d2044
--lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
-vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|abbb8f5d5165d98f8b6fb6a32f5bc1e1deb6dca8
-vendor/lib/vendor.qti.hardware.fm@1.0.so|3c725ea0f85bf709bcf77761d707abf7660b1c4d
-vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|da8f10c9914e3cea26ee97b8d060fca6f1e5f8e8
-vendor/lib64/vendor.qti.hardware.fm@1.0.so|dc576dfcb0bf390a106b5ed8861e7f547110cbf1
+-lib64/vendor.qti.hardware.fm@1.0.so|32dd637f377d18e862ad24be7086a71a5fe52f71
+vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so|b80f6d9c7f9cfc93e25a7e99bb4c2f6c69cfd462
+vendor/lib/vendor.qti.hardware.fm@1.0.so|b438141abfb4a52cf82b9680326c22495e6de450
+vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so|8fa47e12c21715853b362fbd367dbc5090174c39
+vendor/lib64/vendor.qti.hardware.fm@1.0.so|32dd637f377d18e862ad24be7086a71a5fe52f71
 
-# Gatekeeper - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Gatekeeper - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/hw/gatekeeper.msm8953.so|fb3693904e3b26250157ab5be21ef977971a3382
 vendor/lib64/hw/gatekeeper.msm8953.so|c1b386547234815a0d6116b5e4756de66075cd3f
 
-# GPS - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# GPS - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/hw/vendor.qti.gnss@1.0-service|049201d8e22064b87eb52df208d8cda7066d140a
 vendor/bin/loc_launcher|23a4470552c0c418662a7d91fa7f593bee767459
 vendor/bin/lowi-server|f83f6ab9b978c618c87d2b5c66854533d0e3a66f
 vendor/bin/slim_daemon|0346d3721c2a0471559d0728c329888e5bad8452
 vendor/bin/xtra-daemon|f4fdd2d7fc56472066b05899340eb19ff67d54b4
-vendor/etc/cacert_location.pem|0789bf799c7e45d352a83e2f79ddb0cea86db85b
+vendor/etc/cacert_location.pem|6a05f324e7d9ff584811e62aabeb6d89a5239bbe
 vendor/etc/init/vendor.qti.gnss@1.0-service.rc|98655e2adc2158a052b0ecf06b065535f0a2aac7
 vendor/etc/xtra_root_cert.pem|f55a31ec4d9cf8ce2724acadecf00c779f8767db
-vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so|27375e1ff018f7fb65b87ee0ff06e3e39c2c13fc
+vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so|78aebfe0d1e551b183c4e2beada0d1264e0fb9d4
 vendor/lib64/libalarmservice_jni.so|86b5ea03823f037ae79a367f7f1155d4d72ecfb5
 vendor/lib64/libdataitems.so|60f312e84762cd2493a6ac4aa2f8cd715fca7099
 vendor/lib64/libdrplugin_client.so|ba6de3e6a872ec53d7b4e11bd5b9371428a26909
@@ -218,18 +218,18 @@ vendor/lib64/liblocationservice_glue.so|a70dcf2912346d4a5f07fe84025404fe866e3d09
 vendor/lib64/liblowi_client.so|34f65f866c950733c72d5a4f0de00580d2ac3cf5
 vendor/lib64/liblowi_wifihal.so|cdb5477319b7acf35978eaae741192392d2c875f
 vendor/lib64/libquipc_os_api.so|0dd27d3164e69f076563b48c3945bcac66833783
-vendor/lib64/libsensorndkbridge.so|f1550d2526654448abf14a8c373f6b4e7dfe2063
+vendor/lib64/libsensorndkbridge.so|e3b264db678333fe4f55b6346df242f3db2a7778
 vendor/lib64/libslimclient.so|e92942e916eb8863e1689106dd5d7932c9dcda70
 vendor/lib64/libulp2.so|3456c76c42681ec40f6d158f8d516158bb43c5b1
 vendor/lib64/libxtadapter.so|d404e8c5c6e14a556926ba772ca99aa51cbd6a36
 vendor/lib64/libxtwifi_ulp_adaptor.so|58b20fbdbb500add11784acce0808c7198c96c34
-vendor/lib64/vendor.qti.gnss@1.0.so|90b465adc4542f16fbdd935d0592df73d778909b
-vendor/lib64/vendor.qti.gnss@1.1.so|1edcf36fc3afbc465e53e3b74f99fde1e952f718
-vendor/lib64/vendor.qti.gnss@1.2.so|fc002fdced5768ed97936fde007476c1e9eaabb2
-vendor/lib64/vendor.qti.gnss@2.0.so|58e69a003eb530cf59bbe204251b9652d28a4b89
-vendor/lib64/vendor.qti.gnss@2.1.so|e7d80a2a46bcda7445d21701ba94983a43ab46af
+vendor/lib64/vendor.qti.gnss@1.0.so|4dfa66f66b406c1aff3d32bb44382898beaaa39a
+vendor/lib64/vendor.qti.gnss@1.1.so|a622c409e1d20d2799904e47d8fb07753e830d7a
+vendor/lib64/vendor.qti.gnss@1.2.so|104f245c358ab202a57211f99898406cd5ad8e0e
+vendor/lib64/vendor.qti.gnss@2.0.so|b3f7ae76d4db00edce0c4f5a7084d7abeac0180a
+vendor/lib64/vendor.qti.gnss@2.1.so|eb908fd65d8b9d1f9cac629815f7adfb48361d16
 
-# Graphics - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Graphics - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 lib/libsdm-disp-apis.so:vendor/lib/libsdm-disp-apis.so|5c7e946cfa654f533d481970da9b3d2e0c181161
 lib64/libsdm-disp-apis.so:vendor/lib64/libsdm-disp-apis.so|c6681b458123832bb6f4015fd3e24032d5b2eff8
 vendor/lib/egl/eglSubDriverAndroid.so|8468cd8e90386a102d202a48b0c69045fed4af21
@@ -273,11 +273,11 @@ vendor/lib64/librs_adreno.so|5b853ae3692fc3d8cf7c5b63d45320533c194cde
 vendor/lib64/librs_adreno_sha1.so|35c26aecafd9a12d84ff6f89b1891699c19eb88f
 vendor/lib64/libscalar.so|61c059ca3b9da6a36bdf112e8fbe26a252ad1234
 
-# Graphics (HDR) - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Graphics (HDR) - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/libhdr_tm.so|8060a5d9ed0283c7b89716165ba8af4b86ef0210
 vendor/lib64/libhdr_tm.so|df15d487e73560f81017bcf4a73c28c9697b1ed9
 
-# Graphics (Vulkan) - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Graphics (Vulkan) - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/hw/vulkan.msm8953.so|6259874ee4fe1a414b5e2109ec63af55a70d3733
 vendor/lib64/hw/vulkan.msm8953.so|e1905916771354829868a65e6757615c7de20b71
 
@@ -301,22 +301,22 @@ vendor/firmware/a506_zap.mdt
 vendor/firmware/a530_pfp.fw
 vendor/firmware/a530_pm4.fw
 
-# Ipacm - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Ipacm - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/ipacm-diag|4dc647f49c278905e69af0ba9d8271927cd1859c
 
-# Keystore - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Keystore - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/hw/keystore.msm8953.so|fdfa414efe6205bfd7750726ae730e4bd3c1ba00
 vendor/lib64/hw/keystore.msm8953.so|f71f1439c9c356ce05d88b876253b4e3dcb10f4b
 
-# Listen - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Listen - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib64/hw/sound_trigger.primary.msm8953.so|2b36d17a046f590394d99dcdd8de4af7fcf29b5e
-vendor/lib64/vendor.qti.voiceprint@1.0.so|bccca33094f7bbc1868f20a7943a2a022500c993
+vendor/lib64/vendor.qti.voiceprint@1.0.so|483d0c78115999e3f85fcb99b3b3b43a6b93c616
 vendor/lib/hw/sound_trigger.primary.msm8953.so|c5da1142ec362219503e546221866f36e3d50be4
 vendor/lib/libadpcmdec.so|eeaef8dd6cad3da613860bb263f192cda56c60b6
 vendor/lib/libsmwrapper.so|3ba2c53973436a805dc32395af83129d1b984dca
-vendor/lib/vendor.qti.voiceprint@1.0.so|9471c39c87ef693362533255d40299ae8a6f39fa
+vendor/lib/vendor.qti.voiceprint@1.0.so|ffcc4a826fe15c2c4b180999557e2881e7ab85aa
 
-# Media - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Media - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/libI420colorconvert.so|eed42cd41b14f8921d668eca1a798aae76cfebe1
 vendor/lib/libmmosal_proprietary.so|dfa0b9751df0a52ffd69e00af463ad65f54c01e5
 vendor/lib/libOmxAacDec.so|364628180f938a005c6c9bc9db56d2a9e414f263
@@ -329,7 +329,7 @@ vendor/lib/libOmxApeDecSw.so|5a8bbc06b9cf680f1c5012660c82f37331559f77
 vendor/lib/libOmxEvrcDec.so|6a50e069ae8b769c7c97bf0398557112d105b183
 vendor/lib/libOmxQcelp13Dec.so|c094a365bd872d93e553d50fd65dc3d93ef1f486
 vendor/lib/libOmxVideoDSMode.so|e553e97cd36c23549d74231758fa061ea3bbd74b
-vendor/lib/libOmxVpp.so|48ef129f20bd75e060ad66feef8f4ebf4a1c899f
+vendor/lib/libOmxVpp.so|f09e19dad5c11f7e90117e34d64c2d0bcb3343b5
 vendor/lib/libOmxWmaDec.so|3fd1e369ccc027535eb5bc2be1f5fbea50049758
 -vendor/lib/libgpustats.so|83d8856717923ab389aecf17445e33fc21b90afc
 vendor/lib/libmm-color-convertor.so|37baa4587bbbc8b83ee1b1aa94e8818ccfaaf3a0
@@ -346,79 +346,71 @@ vendor/lib64/libOmxApeDec.so|2f5b4e20359c1b415b0013a0ff2bbed661a1811a
 vendor/lib64/libOmxApeDecSw.so|16985653f8063d70a3d076c724f780be5b08fe83
 vendor/lib64/libOmxEvrcDec.so|2804ae226bdbfb37f33123c2ef75d8d38496f22d
 vendor/lib64/libOmxQcelp13Dec.so|0e8d0a06a73a46b8d57c3fa1d93f26400f1d03dc
-vendor/lib64/libOmxVpp.so|1ed21ba8236c4cb6264d2474ad495ebe5df6ed1d
+vendor/lib64/libOmxVpp.so|98be9a85d2f7971734fa7aa37634bd3fab7dd5c3
 vendor/lib64/libOmxWmaDec.so|b8251245e3f5109be57c12309c05336a17725076
 -vendor/lib64/libgpustats.so|35eaab728b21fe7cd33b821bf5cf13ea1117cd90
 vendor/lib64/libmm-color-convertor.so|cae7366bd9ef8e677e55dd67be3ebac78aa151d9
 vendor/lib64/libvpplibrary.so|ce0466b9973660981c908aa77e98daf7822ce4e4
 
-# Modem - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Modem - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/lib/libwms.so|61efcd8bc52e28b7a9b978da0af62355b358887c
 vendor/lib64/libwms.so|57d9f33071f4ae42ac77c98fb82f4e1fe8ac4754
 
-# Perf - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-lib/vendor.qti.hardware.perf@1.0.so|39a81e7cc35f542e5e2eeed6f38152b44063928f
-lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
+# Perf - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
+lib/vendor.qti.hardware.perf@1.0.so|84e437b0dea2d8c1d5712a9fadf132ae5d665d46
+lib64/vendor.qti.hardware.perf@1.0.so|30798b76c4ef1755b74d17974dc90f39898c9eea
 vendor/bin/energy-awareness|d9b3f1cc791e0e9612a5ff5df6836af4c921a52b
-vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|3f4cf13499019e7e3747679220b280f4f204b8de
+vendor/bin/hw/vendor.qti.hardware.perf@1.0-service|de67bdaaf38ba6e0bfd56847cff1c00a9ff1ef79
 vendor/bin/msm_irqbalance|bf933b58332cf94fe4a2072bc3e976a6a82efe3c
 vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc|b50182aadab2e31409df61c523d0fb914a394e43
 vendor/lib/libperfgluelayer.so|0cda8dd77f3c00b70ad50b7764adfb7869d3537e
 vendor/lib/libqti-perfd-client.so|a4a6da47ee26fcd5116c514f7fed15b91306aea3
 vendor/lib/libqti-perfd.so|2c8af66cbcb941b9da2edb68f428776cbbabdff6
 vendor/lib/libqti-util.so|459a7375feb57c2e11d012c5fb65befd94e91d06
-vendor/lib/vendor.qti.hardware.perf@1.0.so|39a81e7cc35f542e5e2eeed6f38152b44063928f
+vendor/lib/vendor.qti.hardware.perf@1.0.so|84e437b0dea2d8c1d5712a9fadf132ae5d665d46
 vendor/lib64/libperfgluelayer.so|e8bc850cbb8d2c2b9ed8c6b9c48eb4b1fd197622
 vendor/lib64/libqti-perfd-client.so|d9fb126fb7aff2db61978f46f78e0284e95183be
 vendor/lib64/libqti-perfd.so|96806732f4e5f8c25ba2e12a3a939fc2889c7341
 vendor/lib64/libqti-util.so|30dc90c1636fd100a8e101dfa659e0b7299ff813
-vendor/lib64/vendor.qti.hardware.perf@1.0.so|978a16bc6f27967f6345c5b51386d50768553ab5
+vendor/lib64/vendor.qti.hardware.perf@1.0.so|30798b76c4ef1755b74d17974dc90f39898c9eea
 
-# Peripheral manager - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Peripheral manager - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/pm-proxy|56e9bdaa39270aa4456c9995a8a9e4618ba616a6
 vendor/bin/pm-service|7cbca1671529a805177f11f3f72defdbbe48a61c
 vendor/lib/libperipheral_client.so|6e06ff7e89cb8054612c98c25240e7570c069752
 vendor/lib64/libperipheral_client.so|e2fbf94c589dbf8ae6c544a34441783ae9db3a08
 
-# Postprocessing - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Postprocessing - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 etc/permissions/com.qti.snapdragon.sdk.display.xml|0bff16d681e75f203c1e11ff33afba82490e49b3
 framework/com.qti.snapdragon.sdk.display.jar|db5b8dd09100aab238b5972192f5ab944f38208c
--lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
-lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
-lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
-lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
-lib/vendor.qti.hardware.qdutils_disp@1.0.so|09fb9cae13bf5edb70aa7568c7bf457db7415dc8
--lib64/vendor.display.color@1.0.so|ec75654927c63b74c7f8d0760fa463f0e8287f25
-lib64/vendor.display.color@1.1.so|28dd1ef69ea74f5623746bbac5c483a3f3b46990
-lib64/vendor.display.color@1.2.so|2c61fe34f1b7548b258812c85920aa82f6b3a8db
-lib64/vendor.display.postproc@1.0.so|b95e9f990a207d5c62db4d66f5aaf088adc02ba8
-lib64/vendor.qti.hardware.qdutils_disp@1.0.so|de6aade2863c03d5b3e234bf87bd398b8f23b13d
+-lib/vendor.display.color@1.0.so|f3acc62f826200030db8a565aeab4445c6fb53ef
+lib/vendor.display.postproc@1.0.so|9d8a501145eea8f6cc28afaeb539942af7df6136
+lib/vendor.qti.hardware.qdutils_disp@1.0.so|c5cb5854abc981b1c26ba3a95c1e1d834e616001
+-lib64/vendor.display.color@1.0.so|6093f6b3f654ea557ea297e695bc92a8fbae0c13
+lib64/vendor.display.postproc@1.0.so|44a60e215fc075f09973f033bacc89af2afe4164
+lib64/vendor.qti.hardware.qdutils_disp@1.0.so|e0fd5a17e9ce0fddda384b9810acd736e5905458
 vendor/bin/hw/vendor.display.color@1.0-service|2dbbb46a62ac5cf8d3a084c8350457442f5741eb
 vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti|2536d249be2b723821eae12a505c737e2c6f7681
 vendor/bin/mm-pp-dpps|c281ee28274eeff6273091ae07aa1856a0c160db
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
 vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc|69d9cbc54f8ac0a0fb010f92bfa7de5981d643cf
 vendor/lib/libdisp-aba.so|1779aa9d99a04db3ab1b5546bd243ba3ecfc1bb5
-vendor/lib/vendor.display.color@1.0.so|68f3b191767e32ebe6d1e77725d22bfd1152ce14
-vendor/lib/vendor.display.color@1.1.so|9fc879923cdf549709fe09913393f4a01af052cb
-vendor/lib/vendor.display.color@1.2.so|88782c36567cf84014710e94630c94217f030fd6
-vendor/lib/vendor.display.postproc@1.0.so|fe3bfd38306d1c5e2c1ba900c18ccc09b9152b61
-vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|09fb9cae13bf5edb70aa7568c7bf457db7415dc8
+vendor/lib/vendor.display.color@1.0.so|f3acc62f826200030db8a565aeab4445c6fb53ef
+vendor/lib/vendor.display.postproc@1.0.so|9d8a501145eea8f6cc28afaeb539942af7df6136
+vendor/lib/vendor.qti.hardware.qdutils_disp@1.0.so|c5cb5854abc981b1c26ba3a95c1e1d834e616001
 vendor/lib64/libdisp-aba.so|2b9a85de013e956f1adfaf00146a865efb7077c4
-vendor/lib64/vendor.display.color@1.0.so|ec75654927c63b74c7f8d0760fa463f0e8287f25
-vendor/lib64/vendor.display.color@1.1.so|28dd1ef69ea74f5623746bbac5c483a3f3b46990
-vendor/lib64/vendor.display.color@1.2.so|2c61fe34f1b7548b258812c85920aa82f6b3a8db
-vendor/lib64/vendor.display.postproc@1.0.so|b95e9f990a207d5c62db4d66f5aaf088adc02ba8
-vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|de6aade2863c03d5b3e234bf87bd398b8f23b13d
+vendor/lib64/vendor.display.color@1.0.so|6093f6b3f654ea557ea297e695bc92a8fbae0c13
+vendor/lib64/vendor.display.postproc@1.0.so|44a60e215fc075f09973f033bacc89af2afe4164
+vendor/lib64/vendor.qti.hardware.qdutils_disp@1.0.so|e0fd5a17e9ce0fddda384b9810acd736e5905458
 
-# Power-off alarm - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Power-off alarm - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 framework/vendor.qti.hardware.alarm-V1.0-java.jar|ca5bf830ebb4fbf8fc1994200ec6e03dc83c274b
 -vendor/app/PowerOffAlarm/PowerOffAlarm.apk|3fbc64ee84b17eaaf5f9002b58f4615216de0389
 vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service|b7f648c81773214202aaa3620863d048c90713c7
 vendor/bin/power_off_alarm|459ccd83df3fcc076bb82bff60f47d14ad69ad6e
 vendor/etc/init/vendor.qti.hardware.alarm@1.0-service.rc|c9877b6cae0353d5fdea5bc23dba77101b3d6980
 vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so|df138b77fb116a1a786a70c9c76b69d61b5c04d2
-vendor/lib64/vendor.qti.hardware.alarm@1.0.so|5761eae471e8dcd94ce139e831a1aa5b23f133c6
+vendor/lib64/vendor.qti.hardware.alarm@1.0.so|6f28bd9425af72d48266ff88b728c61f827571a8
 
 # QMI
 etc/permissions/qti_libpermissions.xml
@@ -580,8 +572,8 @@ vendor/lib64/lib-uceservice.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0-service-Impl.so
 vendor/lib64/vendor.qti.imsrtpservice@1.0_vendor.so
 
-# Sensors - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-vendor/bin/sensors.qti|3d6881f1210907aaf53dcc35b8afb55945c4af69
+# Sensors - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
+vendor/bin/sensors.qti|cdd054e0fc3a39af4561d6fbb953d7a6a2efb202
 vendor/lib/hw/activity_recognition.msm8953.so|a1fe9691b93cace08ec27e3ae9b04255fa6f7338
 vendor/lib/libsensor1.so|1ea8cc3968d77ccfc116b30a36cf03ffda0d1338
 vendor/lib/libsensor_reg.so|05a6945627710edc3db074ca523a8e178b2a3e95
@@ -595,32 +587,32 @@ vendor/lib64/libsensor_user_cal.so|3965ea663c25ee07897ef003a13b94f0addde8ab
 vendor/lib64/sensor_calibrate.so|8d23318acf49b044512af1501407206a727bd978
 vendor/lib64/sensors.ssc.so|dabcea6d758a88dfabd1837fa4bba9c6085ee465
 
-# Thermal - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-vendor/bin/thermal-engine|e24c041613a4a522e15d54f700e1d1befe7e171e
+# Thermal - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
+vendor/bin/thermal-engine|e128108fdd20b3b1dfeba8d25be95cf6977eec4e
 -vendor/lib/libthermalclient.so|390eda2d80df6825c09eb504f0630650ea2d30f7
 -vendor/lib64/libthermalclient.so|796c3e071fe9d6fa57598e1205a762cb55720f88
 vendor/lib64/libthermalioctl.so|5c126fa39bd8fbdb456c661be36e16ae5c6c3ec0
 
-# Time services - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Time services - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 -vendor/app/TimeService/TimeService.apk|78109530538aa8fb533ad288c9d356c57481a10e
 vendor/bin/time_daemon|d67f1c50583b5efca0f5baea00a51056a798b7f8
 -vendor/lib/libtime_genoff.so|24f6064818bc53c5ea17a3608766e3cc1e889f64
 -vendor/lib64/libtime_genoff.so|8f4c1f9ace6af463b241b130d6872b5d39cc7b2a
 
-# TUI - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
-lib/vendor.qti.hardware.tui_comm@1.0.so|c0e0c4c9e186d2fcfbb234bf8fcb72091cc78c02
-lib64/vendor.qti.hardware.tui_comm@1.0.so|acbbf758ec18b79b7fa0b557a55fd700fa76d577
+# TUI - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
+lib/vendor.qti.hardware.tui_comm@1.0.so|8b9f73504547b72f1d1937b80addfdfbd3cbd881
+lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
 vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|86c327a8310fcc42f69c85ec0868c630903c7d79
 vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|c0e0c4c9e186d2fcfbb234bf8fcb72091cc78c02
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|acbbf758ec18b79b7fa0b557a55fd700fa76d577
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|8b9f73504547b72f1d1937b80addfdfbd3cbd881
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|886be11a566c18744db517c94e2530b68df819b6
 
-# Widevine - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Widevine - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine|9743c4ecd0fb8773795bcbfbb406f25616c04129
-vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|5a01d337c1d375ee24a6c8992ba91f54afb7637e
-vendor/lib64/libwvhidl.so|a3444ac0deb8144a08ba2ed1dad2f2369096c7af
+vendor/etc/init/android.hardware.drm@1.1-service.widevine.rc|458dd241f5f8536eccb57f012b3eba0061736e8e
+vendor/lib64/libwvhidl.so|ce0de3a9ea5538e3ebd5aa5afec35ce4c2b018af
 
-# Wi-Fi - from daisy_sprout pie, PKQ1.180917.001/V10.0.1.0.PDLMIFJ
+# Wi-Fi - from daisy_sprout pie, PKQ1.180917.001/V10.0.8.0.PDLMIXM
 vendor/bin/wcnss_service|8c18c578a6b96a76e7f2ca614b411d4143d9ba4c
 
 # Wi-Fi Display - from tissot_sprou pie PKQ1.180917.001/V10.0.2.0.PDHMIFK
