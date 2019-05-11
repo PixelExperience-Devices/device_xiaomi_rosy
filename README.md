@@ -13,12 +13,11 @@ Copyright (C) 2017 - The LineageOS Project
 - [x] RIL
 - [x] Sensors
 - [x] Sound
+- [x] VoLTE
 - [x] Wifi
 
 ## Not Working:
-- [ ] Google Assistant
 - [ ] GPS - Device Only Mode?
-- [ ] VoLTE
 
 ## Device specifications
 
