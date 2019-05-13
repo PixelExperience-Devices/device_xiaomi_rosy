@@ -423,11 +423,8 @@ else
     echo 0 > /sys/module/vmpressure/parameters/allocstall_threshold
     echo 100 > /proc/sys/vm/swappiness
 
-    configure_zram_parameters
-
     configure_read_ahead_kb_values
 
-    enable_swap
 fi
 }
 
