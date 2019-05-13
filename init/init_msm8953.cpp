@@ -1,7 +1,5 @@
 /*
-   Copyright (c) 2015, The Linux Foundation. All rights reserved.
-   Copyright (C) 2018 The LineageOS Project.
-
+   Copyright (c) 2016, The CyanogenMod Project
    Redistribution and use in source and binary forms, with or without
    modification, are permitted provided that the following conditions are
    met:
@@ -14,7 +12,6 @@
     * Neither the name of The Linux Foundation nor the names of its
       contributors may be used to endorse or promote products derived
       from this software without specific prior written permission.
-
    THIS SOFTWARE IS PROVIDED "AS IS" AND ANY EXPRESS OR IMPLIED
    WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF
    MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT
@@ -28,31 +25,24 @@
    IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include <cstdlib>
-#include <fstream>
-#include <stdio.h>
-#include <string.h>
+#include <fcntl.h>
+#include <stdlib.h>
 #include <sys/sysinfo.h>
 #include <unistd.h>
 
-#include <android-base/file.h>
-#include <android-base/properties.h>
-#include <android-base/strings.h>
-
-#include "property_service.h"
 #include "vendor_init.h"
+#include "property_service.h"
+#include "log.h"
 
-using android::base::GetProperty;
-using android::init::property_set;
-using android::base::ReadFileToString;
-using android::base::Trim;
+#define _REALLY_INCLUDE_SYS__SYSTEM_PROPERTIES_H_
+#include <sys/_system_properties.h>
 
-char const *heapstartsize;
 char const *heapgrowthlimit;
-char const *heapsize;
 char const *heapminfree;
-char const *heapmaxfree;
 
+using android::init::property_set;
+
+// fingerprint property for rosy
 static void init_finger_print_properties()
 {
 	if (access("/persist/data/fingerprint_version", 0) == -1) {
@@ -62,6 +52,17 @@ static void init_finger_print_properties()
 	}
 }
 
+void property_override(char const prop[], char const value[])
+{
+    prop_info *pi;
+
+    pi = (prop_info*) __system_property_find(prop);
+    if (pi)
+        __system_property_update(pi, value, strlen(value));
+    else
+        __system_property_add(prop, strlen(prop), value, strlen(value));
+}
+
 void check_device()
 {
     struct sysinfo sys;
@@ -69,19 +70,13 @@ void check_device()
     sysinfo(&sys);
 
     if (sys.totalram > 2048ull * 1024 * 1024) {
-        // from - phone-xxhdpi-3072-dalvik-heap.mk
-        heapstartsize = "8m";
-        heapgrowthlimit = "288m";
-        heapsize = "768m";
-        heapminfree = "2m";
-        heapmaxfree = "8m";
+        // from - Stock rom
+        heapgrowthlimit = "256m";
+        heapminfree = "4m";
     } else {
         // from - phone-xxhdpi-2048-dalvik-heap.mk
-        heapstartsize = "16m";
         heapgrowthlimit = "192m";
-        heapsize = "512m";
         heapminfree = "2m";
-        heapmaxfree = "8m";
    }
 }
 
@@ -90,11 +85,13 @@ void vendor_load_properties()
     check_device();
     init_finger_print_properties();
 
-    property_set("ro.boot.btmacaddr", "00:00:00:00:00:00");
-    property_set("dalvik.vm.heapstartsize", heapstartsize);
-    property_set("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
-    property_set("dalvik.vm.heapsize", heapsize);
-    property_set("dalvik.vm.heaptargetutilization", "0.75");
-    property_set("dalvik.vm.heapminfree", heapminfree);
-    property_set("dalvik.vm.heapmaxfree", heapmaxfree);
+    property_override("dalvik.vm.heapstartsize", "16m");
+    property_override("dalvik.vm.heapgrowthlimit", heapgrowthlimit);
+    property_override("dalvik.vm.heapsize", "512m");
+    property_override("dalvik.vm.heaptargetutilization", "0.75");
+    property_override("dalvik.vm.heapminfree", heapminfree);
+    property_override("dalvik.vm.heapmaxfree", "8m");
+    property_override("ro.build.description", "rosy-user 7.1.2 N2G47H V9.2.3.0.NDAMIEK release-keys");
+    property_override("ro.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
+    property_override("ro.vendor.build.fingerprint", "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys");
 }
