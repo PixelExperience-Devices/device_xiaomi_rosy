@@ -4,10 +4,5 @@
    "repository": "LineageOS/android_packages_resources_devicesettings",
    "target_path": "packages/resources/devicesettings",
    "revision":"lineage-16.0"
- },
-  {
-   "repository" : "SOVIET-ANDROID/aarch64-linux-gnu-8.x",
-   "target_path": "prebuilts/gcc/linux-x86/aarch64/aarch64-linux-gnu-8.x",
-   "branch"     : "master"
- }, 
+ }
 ]
