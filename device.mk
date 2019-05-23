@@ -324,8 +324,6 @@ PRODUCT_PACKAGES += \
     init.goodix.sh \
     init.qcom.bt.sh \
     init.baseband.sh \
-    move_time_data.sh \
-    move_wifi_data.sh \
     init.qcom.early_boot.sh \	
     init.qcom.post_boot.sh
 
