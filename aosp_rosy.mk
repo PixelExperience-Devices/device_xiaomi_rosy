@@ -25,8 +25,8 @@ $(call inherit-product, device/xiaomi/rosy/device.mk)
 # Import Miui Camera 
 $(call inherit-product, vendor/xiaomi/MiuiCamera/rosy.mk)
 
-# Inherit some common RR stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+# Inherit CAF stuffs
+$(call inherit-product, vendor/aosp/config/common.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := rosy
