@@ -22,13 +22,13 @@ vendor/lib/rfsa/adsp/libscveBlobDescriptor_skel.so|99752b14bc669589f598b2c555af9
 vendor/lib/rfsa/adsp/libscveT2T_skel.so|487f830aca26c85ef79c8b599b2f03668ab732b5
 
 # Audio ACDB
-vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_General_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb
-vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb
+vendor/etc/acdbdata/adsp_avs_config.acdb
+vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_General_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Global_cal.acdb
@@ -37,14 +37,21 @@ vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Hdmi_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Headset_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_Speaker_cal.acdb
 vendor/etc/acdbdata/MTP/msm8953-tasha-snd-card/MTP_WCD9335_workspaceFile.qwsp
-vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Global_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Handset_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_Hdmi_cal.acdb
-vendor/etc/acdbdata/MTP/MTP_workspaceFile.qwsp
-vendor/etc/acdbdata/adsp_avs_config.acdb
-
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_General_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Global_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Handset_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Headset_cal.acdb
+vendor/etc/acdbdata/MTP_Global/MTP_Global_Speaker_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Bluetooth_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_General_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Global_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Handset_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Hdmi_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Headset_cal.acdb
+vendor/etc/acdbdata/MTP_Global/msm8953-tasha-snd-card/MTP_Global_WCD9335_Speaker_cal.acdb
+	
 # Audio dirac - from xiaomi
 lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
