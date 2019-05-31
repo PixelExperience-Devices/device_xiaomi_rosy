@@ -49,10 +49,6 @@ vendor.qcom.bluetooth.soc=smd \
 ro.bluetooth.hfp.ver=1.7 \
 ro.qualcomm.bt.hci_transport=smd
 
-# Boot
-PRODUCT_PROPERTY_OVERRIDES += \
-sys.vendor.shutdown.waittime=500
-
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
 camera.display.lmax=1280x720 \
@@ -97,12 +93,6 @@ vendor.display.disable_skip_validate=1 \
 vendor.display.enable_default_color_mode=1 \
 vendor.gralloc.enable_fb_ubwc=1
 
-# Dex2oat optimisation
-PRODUCT_PROPERTY_OVERRIDES += \
-dalvik.vm.boot-dex2oat-threads=8 \
-dalvik.vm.dex2oat-threads=4 \
-dalvik.vm.image-dex2oat-threads=4
-
 # DRM
 PRODUCT_PROPERTY_OVERRIDES += \
 drm.service.enabled=true
@@ -141,6 +131,8 @@ vendor.video.disable.ubwc=1
 # Perf
 PRODUCT_PROPERTY_OVERRIDES += \
 ro.vendor.extension_library=libqti-perfd-client.so
+ro.vendor.qti.sys.fw.bservice_enable=true \
+ro.sys.fw.dex2oat_thread_count=8
 
 # Netmgrd
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -213,3 +205,8 @@ persist.sys.usb.config.extra=none
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
 wifi.interface=wlan0
+
+# ART
+PRODUCT_PROPERTY_OVERRIDES += \
+dalvik.vm.dex2oat-filter=speed \
+dalvik.vm.image-dex2oat-filter=speed
