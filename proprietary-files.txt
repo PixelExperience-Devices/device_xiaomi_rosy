@@ -168,9 +168,6 @@ etc/camera/ov2680_chromatix.xml:vendor/etc/camera/ov2680_chromatix.xml
 etc/camera/ov4688_chromatix.xml:vendor/etc/camera/ov4688_chromatix.xml
 etc/camera/ov5670_chromatix.xml:vendor/etc/camera/ov5670_chromatix.xml
 etc/camera/ov5670_f5670bq_chromatix.xml:vendor/etc/camera/ov5670_f5670bq_chromatix.xml
-etc/camera/ov5675_d5v15b_chromatix.xml:vendor/etc/camera/ov5675_d5v15b_chromatix.xml
-etc/camera/ov5675_ofilm_chromatix.xml:vendor/etc/camera/ov5675_ofilm_chromatix.xml
-etc/camera/ov5695_chromatix.xml:vendor/etc/camera/v5695_chromatix.xml
 etc/camera/ov7251_chromatix.xml:vendor/etc/camera/ov7251_chromatix.xml
 etc/camera/ov8858_chromatix.xml:vendor/etc/camera/ov8858_chromatix.xml
 etc/camera/ov8865_chromatix.xml:vendor/etc/camera/ov8865_chromatix.xml
