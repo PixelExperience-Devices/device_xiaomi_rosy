@@ -357,6 +357,7 @@
             <name>IFingerprintSensorTest</name>
             <instance>default</instance>
         </interface>
+	</hal>	
     <hal format="hidl">
         <name>com.qualcomm.qti.dpm.api</name>
         <transport>hwbinder</transport>
