@@ -162,34 +162,36 @@ sys.use_fifo_ui=1
 # Radio
 PRODUCT_PROPERTY_OVERRIDES += \
 DEVICE_PROVISIONED=1 \
-persist.data.iwlan.enable=false \
+persist.data.iwlan.enable=true \
 persist.dbg.ims_volte_enable=1 \
 persist.dbg.volte_avail_ovr=1 \
 persist.dbg.vt_avail_ovr=1 \
-persist.dbg.wfc_avail_ovr=1 \
-persist.vendor.radio.force_on_dc=true \
-persist.vendor.ims.dropset_feature=1 \
-persist.vendor.radio.report_codec=1 \
-persist.vendor.radio.redir_party_num=1 \
-persist.vendor.radio.apm_sim_not_pwdn=1 \
-persist.vendor.radio.sib16_support=1 \
+persist.dbg.wfc_avail_ovr=0 \
+persist.radio.aosp_usr_pref_sel=true \
+persist.radio.apm_sim_not_pwdn=1 \
+persist.radio.calls.on.ims=0 \
+persist.radio.csvt.enabled=false \
+persist.radio.DROPSETENABLE=1 \
+persist.radio.force_on_dc=true \
+persist.radio.ignore_dom_time=5 \
+persist.radio.hw_mbn_update=0 \
+persist.radio.jbims=0 \
+persist.radio.mt_sms_ack=20 \
+persist.radio.multisim.config=dsds \
+persist.radio.schd.cache=3500 \
+persist.radio.sw_mbn_update=0 \
+persist.radio.videopause.mode=1 \
 persist.vendor.radio.custom_ecc=1 \
 persist.vendor.radio.rat_on=combine \
-persist.radio.schd.cache=3500 \
-persist.radio.apm_sim_not_pwdn=1 \
-persist.radio.report_codec=1 \
-persist.radio.videopause.mode=1 \
-persist.radio.multisim.config=dsds \
-persist.radio.sw_mbn_update=0 \
-persist.radio.hw_mbn_update=0 \
-persist.activate_mbn.enabled=false \
-ro.telephony.default_network=22,22 \
-ro.regionalization.support=true \
-ril.subscription.types=RUIM \
+persist.vendor.radio.sib16_support=1 \
+ril.subscription.types=NV,RUIM \
 rild.libargs=-d/dev/smd0 \
 rild.libpath=/vendor/lib64/libril-qc-qmi-1.so \
 ro.telephony.call_ring.multiple=false \
-service.qti.ims.enabled=1
+ro.telephony.default_network=20 \
+vendor.service.qti.ims.enabled=1 \
+telephony.lteOnCdmaDevice=1 \
+persist.vendor.ims.dropset_feature=0
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -201,7 +203,7 @@ net.tcp.2g_init_rwnd=10
 
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.vendor.sys.usb.config.extra=none
+persist.sys.usb.config.extra=none
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
