@@ -401,7 +401,7 @@ service vendor.cnd /vendor/bin/cnd
     group system wifi inet radio wakelock net_admin
     writepid /dev/cpuset/system-background/tasks
 
-service dpmQmiMgr /vendor/bin/dpmQmiMgr
+service dpmQmiMgr /system/vendor/bin/dpmQmiMgr
     class main
     user system
     group radio system
@@ -436,7 +436,7 @@ service vendor.atfwd /vendor/bin/ATFWD-daemon
     group system radio
     writepid /dev/cpuset/system-background/tasks
 
-service vendor.netmgrd /vendor/bin/netmgrd
+service vendor.netmgrd /system/vendor/bin/netmgrd
     class main
     writepid /dev/cpuset/system-background/tasks
 
@@ -527,7 +527,7 @@ service charger /charger
     group system graphics
     seclabel u:r:charger:s0
 
-service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /vendor/etc/msm_irqbalance.conf
+service vendor.msm_irqbalance /vendor/bin/msm_irqbalance -f /system/vendor/etc/msm_irqbalance.conf
     class core
     user root
     group root
@@ -542,7 +542,7 @@ on property:init.svc.surfaceflinger=restarting
     stop hwcomposer-2-1
     start hwcomposer-2-1
 
-service time_daemon /vendor/bin/time_daemon
+service time_daemon /system/vendor/bin/time_daemon
     class main
     user root
     group root
