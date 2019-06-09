@@ -19,15 +19,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_n_mr1.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
+# Import Miui Camera 
+$(call inherit-product, vendor/xiaomi/MiuiCamera/rosy.mk)
+
+# Inherit some common RR stuff.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := lineage_rosy
 PRODUCT_DEVICE := rosy
+PRODUCT_NAME := aosp_rosy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5
 PRODUCT_MANUFACTURER := Xiaomi
@@ -40,6 +43,10 @@ TARGET_BOOTANIMATION_MULTITHREAD_DECODE := true
 TARGET_BOOTANIMATION_PRELOAD := true
 TARGET_BOOTANIMATION_TEXTURE_CACHE := true
 
+# Pixel Experience
+TARGET_GAPPS_ARCH := arm64
+CUSTOM_BUILD_TYPE=OFFICIAL
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 TARGET_VENDOR_PRODUCT_NAME := rosy
@@ -47,3 +54,4 @@ TARGET_VENDOR_PRODUCT_NAME := rosy
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="rosy" \
     TARGET_DEVICE="rosy"
+
