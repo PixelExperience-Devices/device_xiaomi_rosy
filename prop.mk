@@ -195,7 +195,7 @@ persist.vendor.ims.dropset_feature=0
 
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.timed.enable=true
+persist.vendor.delta_time.enable=true
 
 # Tcp
 PRODUCT_PROPERTY_OVERRIDES += \
