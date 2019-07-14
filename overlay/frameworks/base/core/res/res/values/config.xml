@@ -555,11 +555,4 @@
     <!-- Should we filter any display modes which are unampped? -->
     <bool name="config_filterDisplayModes">true</bool>
 	
-	    <!-- Vibrator pattern for feedback about touching a virtual key -->
-    <integer-array name="config_virtualKeyVibePattern">
-        <item>3</item>
-        <item>8</item>
-        <item>13</item>
-    </integer-array>
-	
 </resources>
