@@ -1797,6 +1797,10 @@ case "$target" in
                 echo 85 > /proc/sys/kernel/sched_upmigrate
                 echo 85 > /proc/sys/kernel/sched_downmigrate
 
+                #HQ D1s-706 add for touch boost start
+                echo 0:1401600 1:1401600 2:1401600 3:1401600 4:1401600 5:1401600 6:1401600 7:1401600 > /sys/module/cpu_boost/parameters/input_boost_freq
+                #HQ D1s-706 add for touch boost end
+
                 # Set Memory parameters
                 configure_memory_parameters
             ;;
@@ -4193,3 +4197,20 @@ if [ -f /sys/devices/soc0/select_image ]; then
     echo $image_variant > /sys/devices/soc0/image_variant
     echo $oem_version > /sys/devices/soc0/image_crm_version
 fi
+
+# Change console log level as per console config property
+console_config=`getprop persist.console.silent.config`
+case "$console_config" in
+    "1")
+        echo "Enable console config to $console_config"
+        echo 0 > /proc/sys/kernel/printk
+        ;;
+    *)
+        echo "Enable console config to $console_config"
+        ;;
+esac
+
+# Parse misc partition path and set property
+misc_link=$(ls -l /dev/block/bootdevice/by-name/misc)
+real_path=${misc_link##*>}
+setprop persist.vendor.mmi.misc_dev_path $real_path
