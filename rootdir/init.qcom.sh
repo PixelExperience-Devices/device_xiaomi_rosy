@@ -83,10 +83,18 @@ start_msm_irqbalance_8939()
 {
 	if [ -f /system/vendor/bin/msm_irqbalance ]; then
 		case "$platformid" in
-		    "239" | "293" | "294" | "295" | "304" | "313")
+		    "239" | "293" | "294" | "295" | "304" | "313" |"353")
+
 			start vendor.msm_irqbalance;;
 		esac
 	fi
+}
+
+start_msm_irqbalance_msmnile()
+{
+         if [ -f /vendor/bin/msm_irqbalance ]; then
+                start vendor.msm_irqbalance
+         fi
 }
 
 start_msm_irqbalance()
@@ -323,7 +331,7 @@ case "$target" in
              hw_platform=`cat /sys/devices/system/soc/soc0/hw_platform`
         fi
         case "$soc_id" in
-             "293" | "304" | "338" )
+             "336" | "337" | "347" | "360" )
                   case "$hw_platform" in
                        "Surf")
                                     setprop qemu.hw.mainkeys 0
