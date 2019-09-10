@@ -7,7 +7,7 @@
    },
    {
       "remote":"github",
-      "branch":"pie-test",
+      "branch":"pie",
       "repository":"rosy-development/kernel_xiaomi_rosy",
       "target_path":"kernel/xiaomi/msm8953"
    },
