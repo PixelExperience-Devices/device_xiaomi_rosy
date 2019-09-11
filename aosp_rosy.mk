@@ -24,6 +24,8 @@ $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
+# Build Mi Cam
+$(call inherit-product, vendor/xiaomi/MiuiCamera/rosy.mk)
 
 # Device identifier. This must come after all inclusions
 PRODUCT_NAME := aosp_rosy
