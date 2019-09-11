@@ -43,6 +43,9 @@ TARGET_GAPPS_ARCH := arm64
 # Pixel Experience build type
 CUSTOM_BUILD_TYPE := OFFICIAL
 
+# Build Mi Cam
+$(call inherit-product, vendor/xiaomi/MiuiCamera/rosy.mk)
+
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
 # Pixel Experience Plus
