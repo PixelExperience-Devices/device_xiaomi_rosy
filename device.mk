@@ -27,15 +27,11 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-lineage
     Settings \
     SettingsProvider \
     SystemUI \
-    framework-res \
+    framework-res 
 
 # Screen density
 PRODUCT_AAPT_CONFIG := normal
 PRODUCT_AAPT_PREF_CONFIG := xhdpi
-
-# Enforce RR
-PRODUCT_ENFORCE_RRO_TARGETS := \
-    framework-res
 
 # Boot animation
 TARGET_SCREEN_HEIGHT := 1280
@@ -163,10 +159,6 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libgenlock \
     libtinyxml
-
-# Device-specific settings
-PRODUCT_PACKAGES += \
-    XiaomiParts
 
 # DRM
 PRODUCT_PACKAGES += \

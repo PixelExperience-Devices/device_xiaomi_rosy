@@ -1,1 +1,1 @@
-add_lunch_combo rr_rosy-userdebug
+add_lunch_combo aosp_rosy-userdebug

@@ -14,4 +14,4 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/rr_rosy.mk
+    $(LOCAL_DIR)/aosp_rosy.mk

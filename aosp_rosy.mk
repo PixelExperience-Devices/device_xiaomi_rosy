@@ -19,14 +19,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
 # Inherit some common LineageOS stuff
-$(call inherit-product, vendor/rr/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from rosy device
 $(call inherit-product, device/xiaomi/rosy/device.mk)
 
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := rr_rosy
+PRODUCT_NAME := aosp_rosy
 PRODUCT_DEVICE := rosy
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi 5
@@ -35,6 +35,15 @@ TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
+
+# Pixel Experience Plus
+ifeq ($(CUSTOM_OTA_VERSION_CODE), pie_plus)
+# This features has to be added to plus editon only.
+INCLUDE_PARTS := true
+MULTI_USER := true
+# Inherit the extra addons.
+$(call inherit-product, device/xiaomi/rosy/extra.mk)
+endif
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="rosy" \
