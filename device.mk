@@ -337,9 +337,10 @@ PRODUCT_PACKAGES += \
     libcnefeatureconfig \
     libxml2 \
     telephony-ext \
-    ims-ext-common
+    ims-ext-common_system
 
 PRODUCT_BOOT_JARS += \
+    ims-ext-common_system \
     telephony-ext
 
 # Seccomp policy
