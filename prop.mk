@@ -193,6 +193,10 @@ vendor.service.qti.ims.enabled=1 \
 telephony.lteOnCdmaDevice=1 \
 persist.vendor.ims.dropset_feature=0
 
+# SurfaceFlinger
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+ro.surface_flinger.protected_contents=true
+
 # Time Services
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.delta_time.enable=true
