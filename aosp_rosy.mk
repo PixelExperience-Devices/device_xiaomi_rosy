@@ -47,15 +47,6 @@ CUSTOM_BUILD_TYPE := OFFICIAL
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
-# Pixel Experience Plus
-ifeq ($(CUSTOM_OTA_VERSION_CODE), pie_plus)
-# This features has to be added to plus editon only.
-INCLUDE_PARTS := true
-MULTI_USER := true
-# Inherit the extra addons.
-$(call inherit-product, device/xiaomi/rosy/extra.mk)
-endif
-
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME="rosy" \
     TARGET_DEVICE="rosy"
