@@ -18,12 +18,6 @@
       "target_path":"vendor/xiaomi"
    },
    {
-      "remote":"github",
-      "branch":"lineage-16.0",
-      "repository":"rosy-development/vendor_xiaomi_MiuiCamera",
-      "target_path":"vendor/xiaomi/MiuiCamera"
-   },
-   {
       "remote":"gitlab",
       "branch":"8.x",
       "repository":"pshreejoy15/toolchain",
