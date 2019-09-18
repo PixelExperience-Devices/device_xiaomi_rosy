@@ -205,7 +205,6 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/gesture/onoff"
 
 # Qualcomm
 BOARD_USES_QCOM_HARDWARE := true
-TARGET_USE_SDCLANG := true
 
 # RIL
 DISABLE_RILD_OEM_HOOK := true
