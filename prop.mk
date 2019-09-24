@@ -220,3 +220,8 @@ wifi.interface=wlan0
 PRODUCT_PROPERTY_OVERRIDES += \
 dalvik.vm.dex2oat-filter=speed \
 dalvik.vm.image-dex2oat-filter=speed
+
+# Enable Multi User
+PRODUCT_PROPERTY_OVERRIDES += \
+fw.max_users=3 \
+fw.show_multiuserui=1
