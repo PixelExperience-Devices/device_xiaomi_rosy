@@ -192,7 +192,8 @@ ro.telephony.call_ring.multiple=false \
 ro.telephony.default_network=20 \
 vendor.service.qti.ims.enabled=1 \
 telephony.lteOnCdmaDevice=1 \
-persist.vendor.ims.dropset_feature=0
+persist.vendor.ims.dropset_feature=0 \
+persist.sys.fflag.override.settings_network_and_internet_v2=true
 
 # SurfaceFlinger
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
