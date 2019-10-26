@@ -974,17 +974,22 @@ vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 # USB - from MIUI BETA - 8.12.4 OPM1.171019.026
 etc/firmware/ice40.bin:vendor/firmware/ice40.bin
 
-# Fingerprint - from MIUI BETA - 8.12.4 OPM1.171019.026
-lib64/hw/goodixfingerprint.default.so:vendor/lib64/hw/fingerprint.goodix.so 
-vendor/lib64/hw/fpcfingerprint.default.so:vendor/lib64/hw/fingerprint.fpc.so 
-lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so 
-lib64/libgf_ca.so:vendor/lib64/libgf_ca.so 
-lib64/libgf_hal.so:vendor/lib64/libgf_hal.so 
+# Fingerprint - from MIUI BETA - 8.12.6 OPM1.171019.026
+lib64/libunwind.so:vendor/lib64/libunwind.so
+-vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
+vendor/etc/permissions/com.fingerprints.extension.xml
+vendor/framework/com.fingerprints.extension.jar
+lib64/hw/goodixfingerprint.default.so:vendor/lib64/hw/goodixfingerprint.default.so
+vendor/lib64/hw/fpcfingerprint.default.so
+vendor/lib64/com.fingerprints.extension@1.0.so
+lib64/libgf_ca.so:vendor/lib64/libgf_ca.so
+lib64/libgf_hal.so:vendor/lib64/libgf_hal.so
+lib64/libgoodixfingerprintd_binder.so:vendor/lib64/libgoodixfingerprintd_binder.so
+lib/android.hardware.biometrics.fingerprint@2.1.so
+lib64/android.hardware.biometrics.fingerprint@2.1.so
+vendor/lib64/com.fingerprints.extension@1.0.so
 lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0-service.so
 lib64/libvendor.goodix.hardware.fingerprint@1.0.so:vendor/lib64/libvendor.goodix.hardware.fingerprint@1.0.so
-
-# Fingerprint extensions - from MIUI BETA - 8.12.4 OPM1.171019.026
--vendor/app/FingerprintExtensionService/FingerprintExtensionService.apk
--vendor/framework/com.fingerprints.extension.jar
-vendor/lib64/com.fingerprints.extension@1.0.so
-vendor/etc/permissions/com.fingerprints.extension.xml
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service
+vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
