@@ -203,7 +203,7 @@ net.tcp.2g_init_rwnd=10
 
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
-persist.sys.usb.config.extra=none
+persist.vendor.sys.usb.config.extra=none
 
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
