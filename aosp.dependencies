@@ -13,7 +13,7 @@
    },
    {
       "remote":"github",
-      "branch":"pie-test",
+      "branch":"pie",
       "repository":"PixelExperience-Devices/vendor_xiaomi_rosy",
       "target_path":"vendor/xiaomi"
    },
